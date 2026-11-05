@@ -1,0 +1,28 @@
+{
+  "name": "gitops-monitoring-dashboard",
+  "version": "1.0.0",
+  "description": "Modern GitOps Monitoring Dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "gitops",
+    "monitoring",
+    "kubernetes",
+    "argocd"
+  ],
+  "author": "Shyama7004",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shyama7004/gitops-eks-stack.git"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
